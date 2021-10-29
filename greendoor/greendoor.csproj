@@ -4,4 +4,16 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="wwwroot\css\NewFile.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="DAL\NewFile.txt" />
+    <None Remove="Models\NewFile.txt" />
+    <None Remove="Views\Shared\_AdminMenu" />
+    <None Remove="Views\Shared\_CustomerMenu" />
+    <None Remove="Views\Shared\_CustomerMenu.cshtnl" />
+  </ItemGroup>
+
 </Project>
